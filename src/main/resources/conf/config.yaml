@@ -1,0 +1,12 @@
+cloud-install-dir: /tmp
+name-node: "server1:90210"
+accumulo-master: "server1:90210"
+data-nodes: 
+  - "data1.node.com:20124"
+  - "data2:20124"
+  - "data3"
+  - "data4:20124"
+zookeeper-nodes:
+  - "zoo1:1234"
+  - "zoo2:1234"
+  - "zoo3:1234"
